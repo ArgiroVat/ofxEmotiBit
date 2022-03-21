@@ -29,7 +29,7 @@ void ofApp::setup() {
 		consoleLogger.startThread();
 	}
 	lsl.start(); //Start up lsl connection on a seperate thread
-
+	ofSetLogLevel(OF_LOG_FATAL_ERROR);
 }
 
 //--------------------------------------------------------------
